@@ -2,6 +2,7 @@
   "name": "keeper-app-part-3",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
     "@testing-library/jest-dom": "^5.17.0",
