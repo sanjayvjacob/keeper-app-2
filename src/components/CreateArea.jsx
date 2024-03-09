@@ -20,6 +20,10 @@ function CreateArea(props) {
   function submitNote(event) {
     // Pass the new note back to the App.
     props.onAdd(note);
+    setNotes({
+      title: "",
+      content: "",
+    });
     event.preventDefault(); //prevent reloading of the page
   }
 
